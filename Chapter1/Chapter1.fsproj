@@ -42,7 +42,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
     <Compile Include="Question1.fs" />
     <Compile Include="Question2.fs" />
     <Compile Include="Question3.fs" />

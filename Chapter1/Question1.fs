@@ -1,6 +1,6 @@
 ﻿module question_1_1
 
-/// Return true if passed string only contains unique chars, false otherwise.
+/// Return true if passed string only contains unique characters, false otherwise.
 let isUnique str =
     str
     |> Seq.countBy (fun c -> c)
