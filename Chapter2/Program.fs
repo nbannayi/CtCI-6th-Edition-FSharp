@@ -12,4 +12,8 @@ let main argv =
     // Question 1 Remove Dups:
     let lst = [1; 1; 1; 2; 3; 3; 4; 5; 5]
     printfn "removeDups %A: %A" lst (question_2_1.removeDups lst)
+
+    // Question 2 Return Kth to Last:
+    let lst = ['A'; 'B'; 'C'; 'D']
+    printfn "kthToLast %A: %A" lst (lst |> question_2_2.kthToLast 3)
     0

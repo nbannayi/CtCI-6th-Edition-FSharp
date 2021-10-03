@@ -45,8 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Question1.fs" />
+    <Compile Include="Question2.fs" />
     <Compile Include="Program.fs" />
-    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(FSharpTargetsPath)" />
 </Project>
