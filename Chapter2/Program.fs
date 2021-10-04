@@ -16,4 +16,8 @@ let main argv =
     // Question 2 Return Kth to Last:
     let lst = ['A'; 'B'; 'C'; 'D']
     printfn "kthToLast %A: %A" lst (lst |> question_2_2.kthToLast 3)
+
+    // Question 3 Delete Middle Node:
+    let lst, node  = ['#'; '%'; '@'; '&'], '@'
+    printfn "deleteMiddleNode %A %A: %A" node lst (lst |> question_2_3.deleteMiddleNode node)
     0
