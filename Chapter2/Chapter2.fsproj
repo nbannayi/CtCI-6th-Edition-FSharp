@@ -47,6 +47,11 @@
     <Compile Include="Question1.fs" />
     <Compile Include="Question2.fs" />
     <Compile Include="Question3.fs" />
+    <Compile Include="Question4.fs" />
+    <Compile Include="Question5.fs" />
+    <Compile Include="Question6.fs" />
+    <Compile Include="Question7.fs" />
+    <Compile Include="Question8.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <Import Project="$(FSharpTargetsPath)" />
