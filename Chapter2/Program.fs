@@ -26,7 +26,8 @@ let main argv =
     printfn "partition %A %A: %A" node lst (lst |> question_2_4.partition node)
 
     // Question 5 Sum Lists:
-    // TODO: try fold.
+    let n1, n2 = [7; 1; 6], [5; 9; 2]
+    printfn "sumLists: %A %A: %d" n1 n2 ((n1,n2) ||> question_2_5.sumLists)
 
     // Question 6 Palindrome:
     let lst = [1; 2; 3; 2; 1]
